@@ -1,0 +1,77 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: relative;
+  height: 60px;
+  background-color: #2c2c2c;;
+}
+
+.menu-button {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #FCB415;
+  margin: 20px 0 0 20px;
+}
+
+.menu-button:before {
+  display: block;
+  content: "";
+  width: 28px;
+  height: 2px;
+  box-shadow: 0 -8px 0 0 #FCB415, 0 8px 0 0 #FCB415;
+}
+
+.header-title {
+  color: #fff;
+  position: absolute;
+  display: inline-flex;
+  margin: 1em 3em 0 5em;
+}
+
+.nav-items {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 25em;
+  cursor: pointer;
+}
+
+li {
+  margin-left: 2em;
+  color: #fff;
+}
+
+li.active-link {
+  color: #FCB415;
+  font-weight: bold;
+  border-top: 4px solid #FCB415;
+}
+
+.welcomeContainer {
+  background-color: #FCB415;
+  width: 69vw;
+  margin-left: 1.5vw;
+}
+
+.welcomeMessage {
+  margin-left: 2vw;
+}
+
+.personalDetails {
+  color: #fff;
+  font-size: 12px;
+}
+
+.personalDetails.personName {
+  font-weight: bold;
+}
+
+.profilePicture {
+  background-image: url('./images/profile2.png');
+}
